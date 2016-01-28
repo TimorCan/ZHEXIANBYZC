@@ -8,7 +8,7 @@
 
 #import "MemoryViewController.h"
 #import "MemoryTableViewCell.h"
-#import "SNChartView/SNChart.h"
+#import "SNChart.h"
 @interface MemoryViewController ()<UITableViewDelegate,UITableViewDataSource,SNChartDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property(nonatomic,strong)SNChart * chart;
@@ -20,7 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 //    [self.tableView registerClass:[MemoryCell class] forCellReuseIdentifier:@"MemoryCell"];
-    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone ;
     [self.tableView registerNib:[UINib nibWithNibName:@"MemoryTableViewCell" bundle:nil] forCellReuseIdentifier:@"MemoryTableViewCell"];
 }
 
@@ -38,9 +39,11 @@
     
     MemoryTableViewCell * cell = (MemoryTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"MemoryTableViewCell" forIndexPath:indexPath];
     cell.selectionStyle = 0;
-    cell.titleLabel.text = @"第一标题 Num.01!";
-    cell.lasttimeLabel.text = @"last time learning_1!";
-    cell.thatTimeLabel.text = @"last time learning_2!";
+    cell.titleLabel.text = @"BX7 新品上市销售技巧1";
+    cell.lasttimeLabel.text = @"第一次学习时间：2015.9.15";
+    cell.thatTimeLabel.text = @"上次复习时间:2015.12.25";
+    cell.learnButton.layer.cornerRadius = 5 ;
+    cell.learnButton.clipsToBounds =YES;
     cell.learnButton.tag = indexPath.row +100;
     [cell.learnButton addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     cell.contentVView.clipsToBounds =YES;

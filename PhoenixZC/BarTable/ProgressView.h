@@ -1,13 +1,13 @@
 //
-//  ChartTableBar.h
+//  ProgressView.h
 //  PhoenixZC
 //
-//  Created by juxi-ios on 16/1/27.
+//  Created by juxi-ios on 16/1/28.
 //  Copyright © 2016年 周灿. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ChartTableBar : UITabBarController
+@interface ProgressView : UIView
 
 @end

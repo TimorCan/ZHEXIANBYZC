@@ -18,17 +18,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     // Do any additional setup after loading the view, typically from a nib.
     
+    //跳转代码
+      /********************************************/
     UIStoryboard * story =[UIStoryboard storyboardWithName:@"ChartStoryboard" bundle:nil];
     ChartTableBar * tabBar =[story instantiateViewControllerWithIdentifier:@"ChartTableBar"];
+    //导航用这个注释的，把下面注释掉-
+     [self.navigationController pushViewController:tabBar animated:YES];
     
     
-    UIWindow * window =[UIApplication sharedApplication].delegate.window;
+//    UIWindow * window =[UIApplication sharedApplication].delegate.window;
+//    window.rootViewController = tabBar;
     
-    window.rootViewController = tabBar;
+    //跳转代码
     
-//    [self.navigationController pushViewController:tabBar animated:YES];
+  /********************************************/
+
     
 }
 

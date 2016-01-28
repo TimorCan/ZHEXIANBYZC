@@ -7,9 +7,8 @@
 //
 
 #import "MemoryTableViewCell.h"
-#import "SNChart.h"
 
-@interface MemoryTableViewCell()<SNChartDataSource>
+@interface MemoryTableViewCell()
 
 
 @end

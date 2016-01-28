@@ -7,26 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21302EBA1C59A33000DDDAEA /* ChartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21302EB01C59A33000DDDAEA /* ChartStoryboard.storyboard */; };
+		21302EBB1C59A33000DDDAEA /* ChartTableBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 21302EB21C59A33000DDDAEA /* ChartTableBar.m */; };
+		21302EBC1C59A33000DDDAEA /* LastLeainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21302EB41C59A33000DDDAEA /* LastLeainingViewController.m */; };
+		21302EBD1C59A33000DDDAEA /* MemoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21302EB61C59A33000DDDAEA /* MemoryTableViewCell.m */; };
+		21302EBE1C59A33000DDDAEA /* MemoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21302EB71C59A33000DDDAEA /* MemoryTableViewCell.xib */; };
+		21302EBF1C59A33000DDDAEA /* MemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21302EB91C59A33000DDDAEA /* MemoryViewController.m */; };
+		21302ECC1C59BCAE00DDDAEA /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21302ECB1C59BCAE00DDDAEA /* ProgressView.m */; };
+		21302ECF1C59BE8C00DDDAEA /* LearnRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21302ECE1C59BE8C00DDDAEA /* LearnRecordCell.m */; };
 		21E046281C58B5A9002BF1AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E046271C58B5A9002BF1AC /* main.m */; };
 		21E0462B1C58B5A9002BF1AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E0462A1C58B5A9002BF1AC /* AppDelegate.m */; };
 		21E0462E1C58B5A9002BF1AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E0462D1C58B5A9002BF1AC /* ViewController.m */; };
 		21E046311C58B5A9002BF1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E0462F1C58B5A9002BF1AC /* Main.storyboard */; };
 		21E046331C58B5A9002BF1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E046321C58B5A9002BF1AC /* Assets.xcassets */; };
 		21E046361C58B5A9002BF1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E046341C58B5A9002BF1AC /* LaunchScreen.storyboard */; };
-		21E046421C58B631002BF1AC /* ChartTableBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E046411C58B631002BF1AC /* ChartTableBar.m */; };
-		21E046441C58B705002BF1AC /* ChartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E046431C58B705002BF1AC /* ChartStoryboard.storyboard */; };
-		21E046471C58B875002BF1AC /* MemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E046461C58B875002BF1AC /* MemoryViewController.m */; };
-		21E0464A1C58B886002BF1AC /* LastLeainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E046491C58B886002BF1AC /* LastLeainingViewController.m */; };
 		21E0468E1C58C19B002BF1AC /* SNChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E046861C58C19B002BF1AC /* SNChart.m */; };
 		21E0468F1C58C19B002BF1AC /* SNChartBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E046881C58C19B002BF1AC /* SNChartBar.m */; };
 		21E046901C58C19B002BF1AC /* SNChartLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E0468A1C58C19B002BF1AC /* SNChartLine.m */; };
 		21E046911C58C19B002BF1AC /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E0468C1C58C19B002BF1AC /* UIBezierPath+curved.m */; };
 		21E046921C58C19B002BF1AC /* 气泡.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E0468D1C58C19B002BF1AC /* 气泡.png */; };
-		21E046981C58C581002BF1AC /* MemoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E046961C58C581002BF1AC /* MemoryTableViewCell.m */; };
-		21E046991C58C581002BF1AC /* MemoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E046971C58C581002BF1AC /* MemoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21302EB01C59A33000DDDAEA /* ChartStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChartStoryboard.storyboard; sourceTree = "<group>"; };
+		21302EB11C59A33000DDDAEA /* ChartTableBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTableBar.h; sourceTree = "<group>"; };
+		21302EB21C59A33000DDDAEA /* ChartTableBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTableBar.m; sourceTree = "<group>"; };
+		21302EB31C59A33000DDDAEA /* LastLeainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastLeainingViewController.h; sourceTree = "<group>"; };
+		21302EB41C59A33000DDDAEA /* LastLeainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastLeainingViewController.m; sourceTree = "<group>"; };
+		21302EB51C59A33000DDDAEA /* MemoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTableViewCell.h; sourceTree = "<group>"; };
+		21302EB61C59A33000DDDAEA /* MemoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryTableViewCell.m; sourceTree = "<group>"; };
+		21302EB71C59A33000DDDAEA /* MemoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoryTableViewCell.xib; sourceTree = "<group>"; };
+		21302EB81C59A33000DDDAEA /* MemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryViewController.h; sourceTree = "<group>"; };
+		21302EB91C59A33000DDDAEA /* MemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryViewController.m; sourceTree = "<group>"; };
+		21302ECA1C59BCAE00DDDAEA /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		21302ECB1C59BCAE00DDDAEA /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		21302ECD1C59BE8C00DDDAEA /* LearnRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnRecordCell.h; sourceTree = "<group>"; };
+		21302ECE1C59BE8C00DDDAEA /* LearnRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnRecordCell.m; sourceTree = "<group>"; };
 		21E046231C58B5A9002BF1AC /* PhoenixZC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoenixZC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E046271C58B5A9002BF1AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21E046291C58B5A9002BF1AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,13 +53,6 @@
 		21E046321C58B5A9002BF1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21E046351C58B5A9002BF1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21E046371C58B5A9002BF1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21E046401C58B631002BF1AC /* ChartTableBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTableBar.h; sourceTree = "<group>"; };
-		21E046411C58B631002BF1AC /* ChartTableBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTableBar.m; sourceTree = "<group>"; };
-		21E046431C58B705002BF1AC /* ChartStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChartStoryboard.storyboard; sourceTree = "<group>"; };
-		21E046451C58B875002BF1AC /* MemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryViewController.h; sourceTree = "<group>"; };
-		21E046461C58B875002BF1AC /* MemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryViewController.m; sourceTree = "<group>"; };
-		21E046481C58B886002BF1AC /* LastLeainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastLeainingViewController.h; sourceTree = "<group>"; };
-		21E046491C58B886002BF1AC /* LastLeainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastLeainingViewController.m; sourceTree = "<group>"; };
 		21E046851C58C19B002BF1AC /* SNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNChart.h; sourceTree = "<group>"; };
 		21E046861C58C19B002BF1AC /* SNChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNChart.m; sourceTree = "<group>"; };
 		21E046871C58C19B002BF1AC /* SNChartBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNChartBar.h; sourceTree = "<group>"; };
@@ -53,9 +62,6 @@
 		21E0468B1C58C19B002BF1AC /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
 		21E0468C1C58C19B002BF1AC /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
 		21E0468D1C58C19B002BF1AC /* 气泡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "气泡.png"; sourceTree = "<group>"; };
-		21E046951C58C581002BF1AC /* MemoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTableViewCell.h; sourceTree = "<group>"; };
-		21E046961C58C581002BF1AC /* MemoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryTableViewCell.m; sourceTree = "<group>"; };
-		21E046971C58C581002BF1AC /* MemoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21302EAF1C59A2FB00DDDAEA /* BarTable 导这个 */ = {
+			isa = PBXGroup;
+			children = (
+				21302EC01C59AFAD00DDDAEA /* view */,
+				21302EB01C59A33000DDDAEA /* ChartStoryboard.storyboard */,
+				21302EB11C59A33000DDDAEA /* ChartTableBar.h */,
+				21302EB21C59A33000DDDAEA /* ChartTableBar.m */,
+				21302EB31C59A33000DDDAEA /* LastLeainingViewController.h */,
+				21302EB41C59A33000DDDAEA /* LastLeainingViewController.m */,
+				21302EB81C59A33000DDDAEA /* MemoryViewController.h */,
+				21302EB91C59A33000DDDAEA /* MemoryViewController.m */,
+			);
+			name = "BarTable 导这个";
+			path = BarTable;
+			sourceTree = "<group>";
+		};
+		21302EC01C59AFAD00DDDAEA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				21302EB51C59A33000DDDAEA /* MemoryTableViewCell.h */,
+				21302EB61C59A33000DDDAEA /* MemoryTableViewCell.m */,
+				21302EB71C59A33000DDDAEA /* MemoryTableViewCell.xib */,
+				21302ECD1C59BE8C00DDDAEA /* LearnRecordCell.h */,
+				21302ECE1C59BE8C00DDDAEA /* LearnRecordCell.m */,
+				21302ECA1C59BCAE00DDDAEA /* ProgressView.h */,
+				21302ECB1C59BCAE00DDDAEA /* ProgressView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		21E0461A1C58B5A8002BF1AC = {
 			isa = PBXGroup;
 			children = (
@@ -88,22 +124,13 @@
 		21E046251C58B5A9002BF1AC /* PhoenixZC */ = {
 			isa = PBXGroup;
 			children = (
-				21E046841C58C19B002BF1AC /* SNChartView */,
+				21E046841C58C19B002BF1AC /* SNChartView导这个 */,
+				21302EAF1C59A2FB00DDDAEA /* BarTable 导这个 */,
 				21E046291C58B5A9002BF1AC /* AppDelegate.h */,
 				21E0462A1C58B5A9002BF1AC /* AppDelegate.m */,
 				21E0462C1C58B5A9002BF1AC /* ViewController.h */,
 				21E0462D1C58B5A9002BF1AC /* ViewController.m */,
-				21E046401C58B631002BF1AC /* ChartTableBar.h */,
-				21E046411C58B631002BF1AC /* ChartTableBar.m */,
-				21E046451C58B875002BF1AC /* MemoryViewController.h */,
-				21E046461C58B875002BF1AC /* MemoryViewController.m */,
-				21E046951C58C581002BF1AC /* MemoryTableViewCell.h */,
-				21E046961C58C581002BF1AC /* MemoryTableViewCell.m */,
-				21E046971C58C581002BF1AC /* MemoryTableViewCell.xib */,
-				21E046481C58B886002BF1AC /* LastLeainingViewController.h */,
-				21E046491C58B886002BF1AC /* LastLeainingViewController.m */,
 				21E0462F1C58B5A9002BF1AC /* Main.storyboard */,
-				21E046431C58B705002BF1AC /* ChartStoryboard.storyboard */,
 				21E046321C58B5A9002BF1AC /* Assets.xcassets */,
 				21E046341C58B5A9002BF1AC /* LaunchScreen.storyboard */,
 				21E046371C58B5A9002BF1AC /* Info.plist */,
@@ -120,7 +147,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		21E046841C58C19B002BF1AC /* SNChartView */ = {
+		21E046841C58C19B002BF1AC /* SNChartView导这个 */ = {
 			isa = PBXGroup;
 			children = (
 				21E046851C58C19B002BF1AC /* SNChart.h */,
@@ -133,6 +160,7 @@
 				21E0468C1C58C19B002BF1AC /* UIBezierPath+curved.m */,
 				21E0468D1C58C19B002BF1AC /* 气泡.png */,
 			);
+			name = "SNChartView导这个";
 			path = SNChartView;
 			sourceTree = "<group>";
 		};
@@ -194,10 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E046921C58C19B002BF1AC /* 气泡.png in Resources */,
-				21E046441C58B705002BF1AC /* ChartStoryboard.storyboard in Resources */,
 				21E046361C58B5A9002BF1AC /* LaunchScreen.storyboard in Resources */,
-				21E046991C58C581002BF1AC /* MemoryTableViewCell.xib in Resources */,
+				21302EBA1C59A33000DDDAEA /* ChartStoryboard.storyboard in Resources */,
 				21E046331C58B5A9002BF1AC /* Assets.xcassets in Resources */,
+				21302EBE1C59A33000DDDAEA /* MemoryTableViewCell.xib in Resources */,
 				21E046311C58B5A9002BF1AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,17 +237,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21E046981C58C581002BF1AC /* MemoryTableViewCell.m in Sources */,
 				21E0462E1C58B5A9002BF1AC /* ViewController.m in Sources */,
-				21E046471C58B875002BF1AC /* MemoryViewController.m in Sources */,
-				21E046421C58B631002BF1AC /* ChartTableBar.m in Sources */,
+				21302EBB1C59A33000DDDAEA /* ChartTableBar.m in Sources */,
 				21E0462B1C58B5A9002BF1AC /* AppDelegate.m in Sources */,
 				21E046281C58B5A9002BF1AC /* main.m in Sources */,
-				21E0464A1C58B886002BF1AC /* LastLeainingViewController.m in Sources */,
 				21E0468F1C58C19B002BF1AC /* SNChartBar.m in Sources */,
+				21302EBC1C59A33000DDDAEA /* LastLeainingViewController.m in Sources */,
+				21302EBD1C59A33000DDDAEA /* MemoryTableViewCell.m in Sources */,
 				21E0468E1C58C19B002BF1AC /* SNChart.m in Sources */,
+				21302EBF1C59A33000DDDAEA /* MemoryViewController.m in Sources */,
 				21E046901C58C19B002BF1AC /* SNChartLine.m in Sources */,
 				21E046911C58C19B002BF1AC /* UIBezierPath+curved.m in Sources */,
+				21302ECF1C59BE8C00DDDAEA /* LearnRecordCell.m in Sources */,
+				21302ECC1C59BCAE00DDDAEA /* ProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
